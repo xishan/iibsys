@@ -23,5 +23,7 @@
         "psr-4": {
             "IIBSys\\": "IIBSys/src/"
         }
-    }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "stable" 
 }
