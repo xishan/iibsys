@@ -18,21 +18,13 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-/*
- * Default Route
- * 
- * Depending on the redirect set 
- * 
- * The System will either go to 
- * public/web/  or
- * public/cP/  
- * 
- */
 
+require_once ('../../php/init.php');
 
-header('Location: public/web/');
-exit;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use IIBSys\SayHello;
+use IIBSys\TestClass\MyCls;
 
-
-
+echo SayHello::world();
 

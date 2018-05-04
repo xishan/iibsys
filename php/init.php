@@ -17,22 +17,11 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
-
-/*
- * Default Route
- * 
- * Depending on the redirect set 
- * 
- * The System will either go to 
- * public/web/  or
- * public/cP/  
- * 
- */
-
-
-header('Location: public/web/');
-exit;
+#SESSION#
+session_start();
+header('Cache-control: private'); // IE 6 FIX
+#SESSION#
 
 
 
-
+require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
