@@ -14,4 +14,5 @@
 // Do the initial testing 
 
 // If we are, go ahead to the public domain
-header('Location: public/');
+
+echo "so far so good";
