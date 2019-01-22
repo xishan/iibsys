@@ -2,6 +2,7 @@
     "name": "iibsys/iibsys", 
     "description": "IIBSys IS INTELLIGENT BUSINESS SYSTEM", 
     "keywords": [
+       "PHP Framework"
     ], 
     "type": "package", 
     "require": {
